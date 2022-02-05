@@ -14,7 +14,6 @@ import org.testng.Assert;
 public class SauceDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.setProperty("webdriver.edge.driver", "C:\\Drivers\\msedgedriver.exe");
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://www.saucedemo.com/");
